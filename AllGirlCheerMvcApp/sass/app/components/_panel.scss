@@ -1,3 +1,9 @@
+.panel {
+	@extend .panel;
+
+	background-color: #E9E9E9;
+}
+
 .panel-box {
 	background-color: #fff;
     border: #ddd 1px solid;

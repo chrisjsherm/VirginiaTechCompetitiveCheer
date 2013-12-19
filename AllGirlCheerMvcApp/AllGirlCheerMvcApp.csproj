@@ -197,14 +197,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\images\14ce5cd598c21de3dda79f75a9eac4cf.jpg" />
-    <Content Include="Content\images\9c3d16a08525f97a062ba5e01c3bd5a6.jpg" />
     <Content Include="Content\images\all-girl-banner.jpg" />
     <Content Include="Content\images\all-girl-logo.png" />
     <Content Include="Content\images\battle-logo.jpg" />
     <Content Include="Content\images\cheerex-logo.jpg" />
     <Content Include="Content\images\cheersport-logo.jpg" />
-    <Content Include="Content\images\d040a1ecf460927dfb3f7f617c51f28c.jpg" />
+    <Content Include="Content\images\d3x_1382.jpg" />
+    <Content Include="Content\images\d88_65371.jpg" />
     <Content Include="Content\images\nca-logo.jpg" />
     <Content Include="Content\images\striped_lens.png" />
     <Content Include="Content\images\vt-logo.jpg" />
