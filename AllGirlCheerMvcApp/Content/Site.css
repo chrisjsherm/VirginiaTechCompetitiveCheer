@@ -8136,8 +8136,8 @@ th.hide-for-touch {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../Content/fonts/fontawesome-webfont.eot?v=4.0.3");
-  src: url("../Content/fonts/fontawesome-webfont.eot?#iefix&v=4.0.3") format("embedded-opentype"), url("../Content/fonts/fontawesome-webfont.woff?v=4.0.3") format("woff"), url("../Content/fonts/fontawesome-webfont.ttf?v=4.0.3") format("truetype"), url("../Content/fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
+  src: url("fonts/fontawesome-webfont.eot?v=4.0.3");
+  src: url("fonts/fontawesome-webfont.eot?#iefix&v=4.0.3") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff?v=4.0.3") format("woff"), url("fonts/fontawesome-webfont.ttf?v=4.0.3") format("truetype"), url("fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -10273,6 +10273,13 @@ th.hide-for-touch {
 /* line 412, ../sass/font-awesome/_icons.scss */
 .fa-plus-square-o:before {
   content: "\f196";
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Droid Sans"), local("DroidSans"), url(fonts/droid-sans-400.woff) format("woff");
 }
 
 /* line 1, ../sass/app/components/_banner.scss */
