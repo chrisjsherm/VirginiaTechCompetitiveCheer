@@ -1,11 +1,22 @@
 .banner {
-	background-image: url(images/all-girl-banner.jpg);
 	background-position: 50% 50%;
 	background-size: cover;
 	display: block;
 	height: 400px;
 	padding-top: 100px;
 	width: 100%;
+
+	@media #{$small-only} {
+		background-image: url(images/small-banner.jpg);
+	}
+
+	@media #{$medium-only} {
+		background-image: url(images/medium-banner.jpg);
+	}
+
+	@media #{$large-up} {
+		background-image: url(images/large-banner.jpg);
+	}
 
 	a {
 		background: #FF6600;

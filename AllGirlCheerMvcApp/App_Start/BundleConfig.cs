@@ -26,9 +26,10 @@ namespace AllGirlCheerMvcApp
                   new ScriptBundle("~/Scripts/vendor").Include(
                       "~/Scripts/jquery-{version}.js",
                       "~/Scripts/foundation/foundation.js",
-                      "~/Scripts/foundation/foundation.topbar.js",
+                      "~/Scripts/foundation/foundation.interchange.js",
                       "~/Scripts/foundation/foundation.orbit.js",
-                      "~/Scripts/foundation/foundation.tab.js")
+                      "~/Scripts/foundation/foundation.tab.js",
+                      "~/Scripts/foundation/foundation.topbar.js")
                   );
         }
 
