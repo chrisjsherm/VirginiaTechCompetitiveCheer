@@ -211,6 +211,7 @@
     <Content Include="Content\images\nca-logo.jpg" />
     <Content Include="Content\images\ncabeach.jpg" />
     <Content Include="Content\images\small-banner.jpg" />
+    <Content Include="Content\images\small-image.jpg" />
     <Content Include="Content\images\striped_lens.png" />
     <Content Include="Content\images\vt-logo.jpg" />
     <Content Include="Content\Site.css" />
