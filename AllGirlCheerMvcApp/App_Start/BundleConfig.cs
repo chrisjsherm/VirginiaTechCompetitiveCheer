@@ -28,7 +28,6 @@ namespace AllGirlCheerMvcApp
                       "~/Scripts/foundation/foundation.js",
                       "~/Scripts/foundation/foundation.interchange.js",
                       "~/Scripts/foundation/foundation.orbit.js",
-                      "~/Scripts/foundation/foundation.tab.js",
                       "~/Scripts/foundation/foundation.topbar.js")
                   );
         }
