@@ -3,9 +3,10 @@
 //
 
 $body-bg: #f9f8f8;
-
-$header-font-family: "Droid Sans", "Open Sans", sans-serif;
+$header-font-family: "Droid Sans", sans-serif;
 $header-font-weight: 400;
+$include-open-sans: false;
+
 
 // Uncomment to use rem-calc() in your settings
 // @import "foundation/functions";
