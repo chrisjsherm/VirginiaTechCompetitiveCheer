@@ -6765,24 +6765,24 @@ blockquote p {
     display: inherit !important;
   }
 }
-/* line 77, ../sass/foundation/components/_top-bar.scss */
+/* line 93, ../sass/foundation/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em;
+  font-family: "/only screen and (min-width:826px)/";
+  width: 825px;
 }
 
 /* Wrapped around .top-bar to contain to grid width */
-/* line 86, ../sass/foundation/components/_top-bar.scss */
+/* line 102, ../sass/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #333333;
+  background: white;
 }
-/* line 90, ../sass/foundation/components/_top-bar.scss */
+/* line 106, ../sass/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
   margin-bottom: 0;
 }
 
-/* line 94, ../sass/foundation/components/_top-bar.scss */
+/* line 110, ../sass/foundation/components/_top-bar.scss */
 .fixed {
   width: 100%;
   left: 0;
@@ -6790,113 +6790,113 @@ meta.foundation-mq-topbar {
   top: 0;
   z-index: 99;
 }
-/* line 101, ../sass/foundation/components/_top-bar.scss */
+/* line 117, ../sass/foundation/components/_top-bar.scss */
 .fixed.expanded:not(.top-bar) {
   overflow-y: auto;
   height: auto;
   width: 100%;
   max-height: 100%;
 }
-/* line 107, ../sass/foundation/components/_top-bar.scss */
+/* line 123, ../sass/foundation/components/_top-bar.scss */
 .fixed.expanded:not(.top-bar) .title-area {
   position: fixed;
   width: 100%;
   z-index: 99;
 }
-/* line 113, ../sass/foundation/components/_top-bar.scss */
+/* line 129, ../sass/foundation/components/_top-bar.scss */
 .fixed.expanded:not(.top-bar) .top-bar-section {
   z-index: 98;
-  margin-top: 45px;
+  margin-top: 80px;
 }
 
-/* line 120, ../sass/foundation/components/_top-bar.scss */
+/* line 136, ../sass/foundation/components/_top-bar.scss */
 .top-bar {
   overflow: hidden;
-  height: 45px;
-  line-height: 45px;
+  height: 80px;
+  line-height: 80px;
   position: relative;
-  background: #333333;
+  background: white;
   margin-bottom: 0;
 }
-/* line 129, ../sass/foundation/components/_top-bar.scss */
+/* line 145, ../sass/foundation/components/_top-bar.scss */
 .top-bar ul {
   margin-bottom: 0;
   list-style: none;
 }
-/* line 134, ../sass/foundation/components/_top-bar.scss */
+/* line 150, ../sass/foundation/components/_top-bar.scss */
 .top-bar .row {
   max-width: none;
 }
-/* line 137, ../sass/foundation/components/_top-bar.scss */
+/* line 153, ../sass/foundation/components/_top-bar.scss */
 .top-bar form,
 .top-bar input {
   margin-bottom: 0;
 }
-/* line 139, ../sass/foundation/components/_top-bar.scss */
+/* line 155, ../sass/foundation/components/_top-bar.scss */
 .top-bar input {
   height: auto;
   padding-top: .35rem;
   padding-bottom: .35rem;
   font-size: 0.75rem;
 }
-/* line 141, ../sass/foundation/components/_top-bar.scss */
+/* line 157, ../sass/foundation/components/_top-bar.scss */
 .top-bar .button {
   padding-top: .45rem;
   padding-bottom: .35rem;
   margin-bottom: 0;
   font-size: 0.75rem;
 }
-/* line 152, ../sass/foundation/components/_top-bar.scss */
+/* line 168, ../sass/foundation/components/_top-bar.scss */
 .top-bar .title-area {
   position: relative;
   margin: 0;
 }
-/* line 157, ../sass/foundation/components/_top-bar.scss */
+/* line 173, ../sass/foundation/components/_top-bar.scss */
 .top-bar .name {
-  height: 45px;
+  height: 80px;
   margin: 0;
   font-size: 16px;
 }
-/* line 162, ../sass/foundation/components/_top-bar.scss */
+/* line 178, ../sass/foundation/components/_top-bar.scss */
 .top-bar .name h1 {
-  line-height: 45px;
+  line-height: 80px;
   font-size: 1.0625rem;
   margin: 0;
 }
-/* line 166, ../sass/foundation/components/_top-bar.scss */
+/* line 182, ../sass/foundation/components/_top-bar.scss */
 .top-bar .name h1 a {
   font-weight: normal;
-  color: white;
+  color: black;
   width: 50%;
   display: block;
-  padding: 0 15px;
+  padding: 0 26.66667px;
 }
-/* line 177, ../sass/foundation/components/_top-bar.scss */
+/* line 193, ../sass/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar {
   position: absolute;
   right: 0;
   top: 0;
 }
-/* line 182, ../sass/foundation/components/_top-bar.scss */
+/* line 198, ../sass/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar a {
-  color: white;
+  color: black;
   text-transform: uppercase;
   font-size: 0.8125rem;
   font-weight: bold;
   position: relative;
   display: block;
-  padding: 0 15px;
-  height: 45px;
-  line-height: 45px;
+  padding: 0 26.66667px;
+  height: 80px;
+  line-height: 80px;
 }
-/* line 195, ../sass/foundation/components/_top-bar.scss */
+/* line 211, ../sass/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar.menu-icon {
-  right: 15px;
+  right: 26.66667px;
   top: 50%;
   margin-top: -16px;
   padding-left: 40px;
 }
-/* line 201, ../sass/foundation/components/_top-bar.scss */
+/* line 217, ../sass/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar.menu-icon a {
   text-indent: -48px;
   width: 34px;
@@ -6905,7 +6905,7 @@ meta.foundation-mq-topbar {
   padding: 0;
   color: white;
 }
-/* line 209, ../sass/foundation/components/_top-bar.scss */
+/* line 225, ../sass/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar.menu-icon a span {
   position: absolute;
   right: 0;
@@ -6915,26 +6915,26 @@ meta.foundation-mq-topbar {
   -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
   box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
 }
-/* line 230, ../sass/foundation/components/_top-bar.scss */
+/* line 246, ../sass/foundation/components/_top-bar.scss */
 .top-bar.expanded {
   height: auto;
   background: transparent;
 }
-/* line 234, ../sass/foundation/components/_top-bar.scss */
+/* line 250, ../sass/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: #333333;
+  background: white;
 }
-/* line 237, ../sass/foundation/components/_top-bar.scss */
+/* line 253, ../sass/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
   color: #888888;
 }
-/* line 238, ../sass/foundation/components/_top-bar.scss */
+/* line 254, ../sass/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a span {
   -webkit-box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
   box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
 }
 
-/* line 258, ../sass/foundation/components/_top-bar.scss */
+/* line 274, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section {
   left: 0;
   position: relative;
@@ -6943,93 +6943,93 @@ meta.foundation-mq-topbar {
   -moz-transition: left 300ms ease-out;
   transition: left 300ms ease-out;
 }
-/* line 264, ../sass/foundation/components/_top-bar.scss */
+/* line 280, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section ul {
   width: 100%;
   height: auto;
   display: block;
-  background: #333333;
+  background: white;
   font-size: 16px;
   margin: 0;
 }
-/* line 274, ../sass/foundation/components/_top-bar.scss */
+/* line 290, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px #1a1a1a;
+  border-top: solid 1px #e6e6e6;
   clear: both;
   height: 1px;
   width: 100%;
 }
-/* line 282, ../sass/foundation/components/_top-bar.scss */
+/* line 298, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a {
   display: block;
   width: 100%;
-  color: white;
+  color: black;
   padding: 12px 0 12px 0;
-  padding-left: 15px;
+  padding-left: 26.66667px;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-size: 0.8125rem;
+  font-size: 1rem;
   font-weight: normal;
-  background: #333333;
+  background: white;
 }
-/* line 293, ../sass/foundation/components/_top-bar.scss */
+/* line 309, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
   background: #008cba;
-  font-size: 0.8125rem;
-  padding-right: 15px;
-  padding-left: 15px;
+  font-size: 1rem;
+  padding-right: 26.66667px;
+  padding-left: 26.66667px;
 }
-/* line 298, ../sass/foundation/components/_top-bar.scss */
+/* line 314, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button:hover {
   background: #006687;
 }
-/* line 302, ../sass/foundation/components/_top-bar.scss */
+/* line 318, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary {
   background: #e7e7e7;
 }
-/* line 304, ../sass/foundation/components/_top-bar.scss */
+/* line 320, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary:hover {
   background: #cecece;
 }
-/* line 308, ../sass/foundation/components/_top-bar.scss */
+/* line 324, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success {
   background: #43ac6a;
 }
-/* line 310, ../sass/foundation/components/_top-bar.scss */
+/* line 326, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success:hover {
   background: #358753;
 }
-/* line 314, ../sass/foundation/components/_top-bar.scss */
+/* line 330, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.alert {
   background: #f04124;
 }
-/* line 316, ../sass/foundation/components/_top-bar.scss */
+/* line 332, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.alert:hover {
   background: #d32a0e;
 }
-/* line 324, ../sass/foundation/components/_top-bar.scss */
+/* line 340, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover > a {
-  background: #272727;
-  color: white;
+  background: white;
+  color: black;
 }
-/* line 331, ../sass/foundation/components/_top-bar.scss */
+/* line 347, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
-  background: #008cba;
-  color: white;
+  background: white;
+  color: black;
 }
-/* line 334, ../sass/foundation/components/_top-bar.scss */
+/* line 350, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a:hover {
-  background: #0079a1;
+  background: white;
 }
-/* line 341, ../sass/foundation/components/_top-bar.scss */
+/* line 357, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section .has-form {
-  padding: 15px;
+  padding: 26.66667px;
 }
-/* line 344, ../sass/foundation/components/_top-bar.scss */
+/* line 360, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section .has-dropdown {
   position: relative;
 }
-/* line 348, ../sass/foundation/components/_top-bar.scss */
+/* line 364, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section .has-dropdown > a:after {
   content: "";
   display: block;
@@ -7038,21 +7038,21 @@ meta.foundation-mq-topbar {
   border: inset 5px;
   border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
   border-left-style: solid;
-  margin-right: 15px;
+  margin-right: 26.66667px;
   margin-top: -4.5px;
   position: absolute;
   top: 50%;
   right: 0;
 }
-/* line 360, ../sass/foundation/components/_top-bar.scss */
+/* line 376, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section .has-dropdown.moved {
   position: static;
 }
-/* line 361, ../sass/foundation/components/_top-bar.scss */
+/* line 377, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section .has-dropdown.moved > .dropdown {
   display: block;
 }
-/* line 368, ../sass/foundation/components/_top-bar.scss */
+/* line 384, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown {
   position: absolute;
   left: 100%;
@@ -7060,33 +7060,33 @@ meta.foundation-mq-topbar {
   display: none;
   z-index: 99;
 }
-/* line 375, ../sass/foundation/components/_top-bar.scss */
+/* line 391, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li {
   width: 100%;
   height: auto;
 }
-/* line 379, ../sass/foundation/components/_top-bar.scss */
+/* line 395, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a {
   font-weight: normal;
-  padding: 8px 15px;
+  padding: 8px 26.66667px;
 }
-/* line 382, ../sass/foundation/components/_top-bar.scss */
+/* line 398, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link {
   font-weight: normal;
 }
-/* line 387, ../sass/foundation/components/_top-bar.scss */
+/* line 403, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5 {
   margin-bottom: 0;
 }
-/* line 388, ../sass/foundation/components/_top-bar.scss */
+/* line 404, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5 a {
-  color: white;
-  line-height: 22.5px;
+  color: black;
+  line-height: 40px;
   display: block;
 }
-/* line 396, ../sass/foundation/components/_top-bar.scss */
+/* line 412, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown label {
-  padding: 8px 15px 2px;
+  padding: 8px 26.66667px 2px;
   margin-bottom: 0;
   text-transform: uppercase;
   color: #777777;
@@ -7094,15 +7094,15 @@ meta.foundation-mq-topbar {
   font-size: 0.625rem;
 }
 
-/* line 407, ../sass/foundation/components/_top-bar.scss */
+/* line 423, ../sass/foundation/components/_top-bar.scss */
 .js-generated {
   display: block;
 }
 
-@media only screen and (min-width: 40.063em) {
-  /* line 412, ../sass/foundation/components/_top-bar.scss */
+@media only screen and (min-width: 826px) {
+  /* line 428, ../sass/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #333333;
+    background: white;
     *zoom: 1;
     overflow: visible;
   }
@@ -7115,78 +7115,78 @@ meta.foundation-mq-topbar {
   .top-bar:after {
     clear: both;
   }
-  /* line 417, ../sass/foundation/components/_top-bar.scss */
+  /* line 433, ../sass/foundation/components/_top-bar.scss */
   .top-bar .toggle-topbar {
     display: none;
   }
-  /* line 419, ../sass/foundation/components/_top-bar.scss */
+  /* line 435, ../sass/foundation/components/_top-bar.scss */
   .top-bar .title-area {
     float: left;
   }
-  /* line 420, ../sass/foundation/components/_top-bar.scss */
+  /* line 436, ../sass/foundation/components/_top-bar.scss */
   .top-bar .name h1 a {
     width: auto;
   }
-  /* line 423, ../sass/foundation/components/_top-bar.scss */
+  /* line 439, ../sass/foundation/components/_top-bar.scss */
   .top-bar input,
   .top-bar .button {
     font-size: 0.875rem;
     position: relative;
     top: 7px;
   }
-  /* line 429, ../sass/foundation/components/_top-bar.scss */
+  /* line 445, ../sass/foundation/components/_top-bar.scss */
   .top-bar.expanded {
-    background: #333333;
+    background: white;
   }
 
-  /* line 432, ../sass/foundation/components/_top-bar.scss */
+  /* line 448, ../sass/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
     max-width: 62.5rem;
     margin: 0 auto;
     margin-bottom: 0;
   }
 
-  /* line 438, ../sass/foundation/components/_top-bar.scss */
+  /* line 454, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section {
     -webkit-transition: none 0 0;
     -moz-transition: none 0 0;
     transition: none 0 0;
     left: 0 !important;
   }
-  /* line 442, ../sass/foundation/components/_top-bar.scss */
+  /* line 458, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section ul {
     width: auto;
     height: auto !important;
     display: inline;
   }
-  /* line 447, ../sass/foundation/components/_top-bar.scss */
+  /* line 463, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section ul li {
     float: left;
   }
-  /* line 449, ../sass/foundation/components/_top-bar.scss */
+  /* line 465, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section ul li .js-generated {
     display: none;
   }
-  /* line 455, ../sass/foundation/components/_top-bar.scss */
+  /* line 471, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
-    background: #272727;
-    color: white;
+    background: white;
+    color: black;
   }
-  /* line 460, ../sass/foundation/components/_top-bar.scss */
+  /* line 476, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section li a:not(.button) {
-    padding: 0 15px;
-    line-height: 45px;
-    background: #333333;
+    padding: 0 26.66667px;
+    line-height: 80px;
+    background: white;
   }
-  /* line 464, ../sass/foundation/components/_top-bar.scss */
+  /* line 480, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section li a:not(.button):hover {
-    background: #272727;
+    background: white;
   }
-  /* line 472, ../sass/foundation/components/_top-bar.scss */
+  /* line 488, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown > a {
-    padding-right: 35px !important;
+    padding-right: 46.66667px !important;
   }
-  /* line 474, ../sass/foundation/components/_top-bar.scss */
+  /* line 490, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown > a:after {
     content: "";
     display: block;
@@ -7196,21 +7196,21 @@ meta.foundation-mq-topbar {
     border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
     border-top-style: solid;
     margin-top: -2.5px;
-    top: 22.5px;
+    top: 40px;
   }
-  /* line 483, ../sass/foundation/components/_top-bar.scss */
+  /* line 499, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown.moved {
     position: relative;
   }
-  /* line 484, ../sass/foundation/components/_top-bar.scss */
+  /* line 500, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown.moved > .dropdown {
     display: none;
   }
-  /* line 488, ../sass/foundation/components/_top-bar.scss */
+  /* line 504, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown.hover > .dropdown, .top-bar-section .has-dropdown.not-click:hover > .dropdown {
     display: block;
   }
-  /* line 495, ../sass/foundation/components/_top-bar.scss */
+  /* line 511, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown .dropdown li.has-dropdown > a:after {
     border: none;
     content: "\00bb";
@@ -7218,67 +7218,67 @@ meta.foundation-mq-topbar {
     margin-top: -2px;
     right: 5px;
   }
-  /* line 507, ../sass/foundation/components/_top-bar.scss */
+  /* line 523, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown {
     left: 0;
     top: auto;
     background: transparent;
     min-width: 100%;
   }
-  /* line 514, ../sass/foundation/components/_top-bar.scss */
+  /* line 530, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li a {
     color: white;
     line-height: 1;
     white-space: nowrap;
-    padding: 12px 15px;
-    background: #333333;
+    padding: 12px 26.66667px;
+    background: white;
   }
-  /* line 522, ../sass/foundation/components/_top-bar.scss */
+  /* line 538, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li label {
     white-space: nowrap;
     background: #333333;
   }
-  /* line 528, ../sass/foundation/components/_top-bar.scss */
+  /* line 544, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li .dropdown {
     left: 100%;
     top: 0;
   }
-  /* line 536, ../sass/foundation/components/_top-bar.scss */
+  /* line 552, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
-    border-right: solid 1px #4d4d4d;
+    border-right: solid 1px white;
     clear: none;
-    height: 45px;
+    height: 80px;
     width: 0;
   }
-  /* line 545, ../sass/foundation/components/_top-bar.scss */
+  /* line 561, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
-    background: #333333;
-    padding: 0 15px;
-    height: 45px;
+    background: white;
+    padding: 0 26.66667px;
+    height: 80px;
   }
-  /* line 553, ../sass/foundation/components/_top-bar.scss */
+  /* line 569, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section ul.right li .dropdown {
     left: auto;
     right: 0;
   }
-  /* line 557, ../sass/foundation/components/_top-bar.scss */
+  /* line 573, ../sass/foundation/components/_top-bar.scss */
   .top-bar-section ul.right li .dropdown li .dropdown {
     right: 100%;
   }
 
-  /* line 567, ../sass/foundation/components/_top-bar.scss */
+  /* line 583, ../sass/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
-    background: #272727;
-    color: white;
+    background: white;
+    color: black;
   }
-  /* line 573, ../sass/foundation/components/_top-bar.scss */
+  /* line 589, ../sass/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
-    background: #008cba;
-    color: white;
+    background: white;
+    color: black;
   }
-  /* line 581, ../sass/foundation/components/_top-bar.scss */
+  /* line 597, ../sass/foundation/components/_top-bar.scss */
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block;
   }
@@ -10419,56 +10419,6 @@ footer .copyright .columns {
   color: #FF6600;
 }
 
-/* line 1, ../sass/app/components/_nav.scss */
-.top-bar {
-  height: 80px;
-  padding: 22px 0;
-}
-
-/* line 6, ../sass/app/components/_nav.scss */
-.contain-to-grid, .top-bar, .top-bar .top-bar-section, .top-bar .top-bar-section ul, .top-bar .top-bar-section ul li a {
-  background: #fff;
-}
-
-/* line 10, ../sass/app/components/_nav.scss */
-.top-bar .title-area .name img {
-  position: relative;
-}
-
-/* line 14, ../sass/app/components/_nav.scss */
-.top-bar .title-area i {
-  color: black;
-}
-
-/* line 18, ../sass/app/components/_nav.scss */
-.top-bar .top-bar-section ul li.active {
-  border-bottom: #FF6600 2px solid;
-}
-
-/* line 22, ../sass/app/components/_nav.scss */
-.top-bar .top-bar-section ul li a {
-  color: black;
-  font-family: "Droid Sans", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-size: 1em;
-}
-
-/* line 28, ../sass/app/components/_nav.scss */
-.top-bar .top-bar-section ul li a:hover {
-  background: #fff;
-}
-
-/* line 32, ../sass/app/components/_nav.scss */
-.top-bar.expanded .title-area {
-  background: none repeat scroll 0 center rgba(0, 0, 0, 0);
-  border-bottom: 3px solid #660000;
-}
-
-@media only screen and (min-width: 40.063em) {
-  /* line 38, ../sass/app/components/_nav.scss */
-  .top-bar .title-area .name img {
-    top: -10px;
-  }
-}
 /* line 1, ../sass/app/components/_panel.scss */
 .panel {
   background-color: #E9E9E9;

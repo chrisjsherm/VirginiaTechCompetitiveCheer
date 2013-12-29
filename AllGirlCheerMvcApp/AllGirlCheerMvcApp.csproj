@@ -233,7 +233,6 @@
     <Content Include="sass\app\components\_footer.scss" />
     <Content Include="sass\app\components\_call-to-action.scss" />
     <Content Include="sass\app\components\_heading.scss" />
-    <Content Include="sass\app\components\_nav.scss" />
     <Content Include="sass\Site.scss" />
     <Content Include="sass\foundation\components\_visibility.scss" />
     <Content Include="sass\foundation\components\_type.scss" />
