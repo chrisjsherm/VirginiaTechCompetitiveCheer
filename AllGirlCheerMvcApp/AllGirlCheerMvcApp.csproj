@@ -198,7 +198,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
-    <Content Include="Content\images\all-girl-banner.jpg" />
     <Content Include="Content\images\all-girl-logo.png" />
     <Content Include="Content\images\battle-logo.jpg" />
     <Content Include="Content\images\cheerex-logo.jpg" />
@@ -206,6 +205,7 @@
     <Content Include="Content\images\d3x_1382.jpg" />
     <Content Include="Content\images\d88_65371.jpg" />
     <Content Include="Content\images\head-shot.jpg" />
+    <Content Include="Content\images\hokie-bird.png" />
     <Content Include="Content\images\large-banner.jpg" />
     <Content Include="Content\images\medium-banner.jpg" />
     <Content Include="Content\images\nca-logo.jpg" />
@@ -213,7 +213,6 @@
     <Content Include="Content\images\small-banner.jpg" />
     <Content Include="Content\images\small-image.jpg" />
     <Content Include="Content\images\striped_lens.png" />
-    <Content Include="Content\images\vt-logo.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
