@@ -12,15 +12,5 @@ namespace AllGirlCheerMvcApp.Controllers
         {
             return View();
         }
-
-        public ActionResult Tryouts()
-        {
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            return View();
-        }
     }
 }
