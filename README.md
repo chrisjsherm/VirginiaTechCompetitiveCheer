@@ -4,4 +4,4 @@ This website is designed and developed on a pro bono basis for the Virginia Tech
 
 ## MIT License
 
-Copyright 2013 Chris Sherman under the [MIT License](LICENSE).
+Copyright 2014 Chris Sherman under the [MIT License](LICENSE).
